@@ -2,8 +2,17 @@
 git config --global user.name “vivekkpal” 
 git config --global user.email “mrvivekkpal72@gmail.com”
 
-#initialize git
+#initialize git for new project
 git init
+# or with branch name main
+git init -b main
+
+git remote add origin <REMOTE-URL>
+git remote -v              #verify repository 
+git branch                 #check branch name
+git branch -M main         #rename branch name as main is other names
+# push changes in main branch
+git push origin main
 
 #clone git repo 
 git clone https://github.com/PoornanandShastri/Python_Basics.git
