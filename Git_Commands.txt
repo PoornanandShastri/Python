@@ -13,6 +13,12 @@ cd Python_Basics
 git fetch --all
 git branch -a
 
+#add file for commit
+git add <file_name>
+git commit -m 'message'
+
+# or
+
 #after change in any file commit all with messege
 git commit -a -m 'change in txt'
 
