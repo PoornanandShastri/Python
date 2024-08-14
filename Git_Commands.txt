@@ -13,3 +13,6 @@ git clone https://github.com/PoornanandShastri/Python_Basics.git
 cd Python_Basics
 git fetch --all
 git branch -a
+
+git commit -a -m 'change in txt'
+git push
