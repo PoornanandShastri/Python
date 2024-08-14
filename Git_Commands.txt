@@ -1,0 +1,10 @@
+git config --global user.name “vivekkpal” 
+git config --global user.email “mrvivekkpal72@gmail.com”
+
+git init
+
+git pull https://github.com/PoornanandShastri/Python.git master
+
+git branch --set-upstream-to=https://github.com/PoornanandShastri/Python.git
+
+git merge --allow-unrelated-histories master
