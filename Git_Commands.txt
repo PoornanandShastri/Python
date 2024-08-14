@@ -8,3 +8,8 @@ git pull https://github.com/PoornanandShastri/Python.git master
 git branch --set-upstream-to=https://github.com/PoornanandShastri/Python.git
 
 git merge --allow-unrelated-histories master
+
+git clone https://github.com/PoornanandShastri/Python_Basics.git
+cd Python_Basics
+git fetch --all
+git branch -a
