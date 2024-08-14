@@ -20,7 +20,9 @@ git commit -m 'message'
 # or
 
 #after change in any file commit all with messege
-git commit -a -m 'change in txt'
+git commit -a -m 'Add some commands'
+# or
+git commit . -m 'Add some commands'
 
 #push to repo
 git push
