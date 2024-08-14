@@ -1,18 +1,34 @@
+# config git profile
 git config --global user.name “vivekkpal” 
 git config --global user.email “mrvivekkpal72@gmail.com”
 
+#initialize git
 git init
 
-git pull https://github.com/PoornanandShastri/Python.git master
+#clone git repo 
+git clone https://github.com/PoornanandShastri/Python_Basics.git
+cd Python_Basics
 
+#fetch all braches and check
+git fetch --all
+git branch -a
+
+#after change in any file commit all with messege
+git commit -a -m 'change in txt'
+
+#push to repo
+git push
+
+#change branch
+git switch master
+
+#pull all changes from repo to local 
+git pull --all
+
+git pull https://github.com/PoornanandShastri/Python.git master
 git branch --set-upstream-to=https://github.com/PoornanandShastri/Python.git
 
 git merge --allow-unrelated-histories master
 
-git clone https://github.com/PoornanandShastri/Python_Basics.git
-cd Python_Basics
-git fetch --all
-git branch -a
 
-git commit -a -m 'change in txt'
-git push
+
